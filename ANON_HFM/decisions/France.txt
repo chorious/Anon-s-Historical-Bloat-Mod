@@ -189,7 +189,7 @@ political_decisions = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 0.3
 			modifier = {
 				factor = 0
 				badboy = 0.5
@@ -505,6 +505,15 @@ political_decisions = {
 					name = french_cultural_unity
 					duration = -1
 				}
+				remove_core = BRT
+				remove_core = BEL
+				remove_core = WLL
+				remove_core = OCC
+				remove_core = NRM
+				remove_core = PIC
+				remove_core = LOR
+				remove_core = ALS 
+				#How could you assimilate these guys with the specific core existing
 			}
 			random_owned = {
 				limit = {
